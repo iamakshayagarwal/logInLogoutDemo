@@ -42,7 +42,7 @@ Route::group([
         Route::delete('/Customer/{id}',[CustomerController::class,'destroy']);
 
 
-        
+        //categorie
 Route::get('/Categorie',[CategorieController::class,'index']);
 
 Route::post('/Categorie',[CategorieController::class,'store']);
